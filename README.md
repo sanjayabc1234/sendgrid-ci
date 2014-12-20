@@ -8,9 +8,9 @@ Step 2:
 -------
 Please refer sample controller in controllers folder. For complete list of sendgrid functions, refer Sendgrid manual.
 
-For example, Usage:
+For example, usage:
 ===========================
-
+<pre>
 /**
  * The class extends the SendGrid Class to integrate into CodeIgniter
  */
@@ -41,3 +41,4 @@ For example, Usage:
 |		$this->sendgrid_app->send($email);
 |----------------------------------------------------------------------------
  */
+</pre>
